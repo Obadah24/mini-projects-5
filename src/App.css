@@ -1,0 +1,53 @@
+/* UsesateAdvanced */
+.main{
+  width: 900px;
+  min-height: 400px;
+  background-color: rgb(73, 94, 87);
+  padding: 32px;
+  border: 1px solid #333333;
+  border-radius: 16px;
+  margin: 32px auto;
+  box-shadow: 2px 0 12px #f4ce14;
+  text-align: left;
+}
+.article{
+  max-width: 100%;
+  min-height: fit-content;
+  background-color: #edefee;
+  border-radius: 16px;
+  padding: 16px;
+  animation: up-and-down 5s linear infinite; ;
+}
+@keyframes up-and-down {
+  0% {
+    background-color: #edefee;
+  }
+  90%{
+    background-color: white;
+  }
+}
+
+.header{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 16px;
+}
+.orderlist{
+  font-size: 32px;
+  font-weight: bold;
+  padding: 8px;
+  margin-left: 16px;
+  color: rgb(73, 94, 87);
+}
+.button , .input{
+  color: rgb(73, 94, 87);
+  margin: 16px 0;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 8px;
+  padding: 8px 16px;
+  border-radius: 16px;
+}
+.button{
+  cursor: pointer;
+}
